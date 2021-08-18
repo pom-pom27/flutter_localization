@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:localization_f/widgets/flag_dropdown.dart';
 import 'package:localization_f/widgets/flag_widget.dart';
 
 class LocalScreen extends StatefulWidget {
@@ -14,7 +15,13 @@ class _LocalScreenState extends State<LocalScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Localization'),
+        title: Text(AppLocalizations.of(context)!.localization),
+        actions: [
+          FlagDropdown(),
+          SizedBox(
+            width: 12,
+          )
+        ],
       ),
       body: Center(
         child: Column(

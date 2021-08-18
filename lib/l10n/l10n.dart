@@ -9,7 +9,7 @@ class L10n {
     const Locale('id'),
   ];
 
-  static String getFlag(String? countryCode) {
+  static String getFlag(String countryCode) {
     switch (countryCode) {
       case 'ar':
         return '🇦🇪';

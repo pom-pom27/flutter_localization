@@ -6,5 +6,9 @@
     "helloWorld": "Hello World",
     "@helloWorld": {
         "description": "a greeting"
+    },
+    "localization": "Localization",
+    "@localization": {
+        "description": "the process of making something local in character or restricting it to a particular place."
     }
 }

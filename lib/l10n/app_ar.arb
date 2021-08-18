@@ -1,4 +1,5 @@
 {
     "language": "لغة",
-   "helloWorld": "مرحبا بالعالم"
+   "helloWorld": "مرحبا بالعالم",   
+   "localization": "الموقع"
 }

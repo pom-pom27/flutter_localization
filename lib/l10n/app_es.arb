@@ -1,4 +1,5 @@
 {
     "language": "idioma",
-   "helloWorld": "Hola Mundo"
+   "helloWorld": "Hola Mundo",
+"localization": "Localización"
 }

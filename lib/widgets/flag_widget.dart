@@ -11,9 +11,10 @@ class FlagWidget extends StatefulWidget {
 class _FlagWidgetState extends State<FlagWidget> {
   @override
   Widget build(BuildContext context) {
+    //get app locale
     final locale = Localizations.localeOf(context);
 
-    final flag = L10n.getFlag(locale.countryCode);
+    final flag = L10n.getFlag(locale.languageCode);
     return Center(
       child: CircleAvatar(
         backgroundColor: Colors.white,
